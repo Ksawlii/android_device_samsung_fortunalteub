@@ -10,4 +10,7 @@ PRODUCT_MODEL := SM-G530M
 PRODUCT_MANUFACTURER := samsung
 PRODUCT_CHARACTERISTICS := phone
 
+# Sign (optional)
+-include vendor/extra/produt.mk
+
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
